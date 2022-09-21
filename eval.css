@@ -1,13 +1,16 @@
 body {
-    background-color: rgb(5, 4, 36);
+    background-color: #0c0e1c;
 }
 
-.menu {
+#menu {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
 
 a
 {
@@ -15,20 +18,32 @@ color: white;
 text-decoration: none;
 font-family:Arial, Helvetica, sans-serif;
 }
-
-h1 {
-    color: white;
-    font-size: 5em;
+.titre {
+    display: flex;
+    letter-spacing: 30px;
+}
+#love {
+    color: #0c0e1c;
+    font-size: 7em;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #f1eedc;
+    padding: 1cm;
+    
+    
 
 }
 
+#com {
+    color: #f1eedc;
+    font-size: 7em;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 1cm;
+}
 p {
     display: flex;
   flex-direction: column;
   font-size: 25px;
-  align-items: end;
-  margin: 10px;
-  font-weight: 100;
+  color: white;
 }
 
 li {
@@ -42,7 +57,7 @@ li {
 button {
     border-radius: 30px 0px 30px 0px;
     border: 1px solid;
-  background: rgb(5, 4, 36);
+  background: #0c0e1c;
   border-color: white;
   color: white;
   font-size: 2em;
@@ -52,4 +67,9 @@ button {
   display:flex;
   justify-content: center;
 
+}
+
+.para {
+    display: flex;
+    
 }
